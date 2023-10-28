@@ -7,6 +7,21 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/results"
+        android:layout_width="186dp"
+        android:layout_height="189dp"
+        android:layout_marginEnd="224dp"
+        android:fontFamily="sans-serif"
+        android:text="Each rolled dice will be shown here"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totaltitle"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <TextView
         android:id="@+id/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,29 +76,41 @@
 
     <TextView
         android:id="@+id/total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="173dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="sans-serif"
-        android:text="Result will be displayed here"
+        android:text="Total will be displayed here"
+        android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/total2"
-        app:layout_constraintVertical_bias="0.204" />
+        app:layout_constraintTop_toBottomOf="@+id/totaltitle"
+        app:layout_constraintVertical_bias="0.43" />
 
     <TextView
-        android:id="@+id/total2"
+        android:id="@+id/totaltitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="60dp"
         android:fontFamily="sans-serif"
-        android:text="RESULT:"
+        android:text="TOTAL:"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/resultstitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif"
+        android:text="RESULTS:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/totaltitle"
+        app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
