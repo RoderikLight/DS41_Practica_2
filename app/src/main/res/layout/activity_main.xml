@@ -10,7 +10,7 @@
         android:id="@+id/results"
         android:layout_width="186dp"
         android:layout_height="189dp"
-        android:layout_marginEnd="224dp"
+        android:layout_marginEnd="208dp"
         android:fontFamily="sans-serif"
         android:text="Each rolled dice will be shown here"
         android:textAlignment="center"
@@ -19,7 +19,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/totaltitle"
-        app:layout_constraintVertical_bias="0.739" />
+        app:layout_constraintVertical_bias="0.304" />
 
     <TextView
         android:id="@+id/Title"
@@ -87,7 +87,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/totaltitle"
-        app:layout_constraintVertical_bias="0.43" />
+        app:layout_constraintVertical_bias="0.112" />
 
     <TextView
         android:id="@+id/totaltitle"
